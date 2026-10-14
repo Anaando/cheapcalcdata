@@ -2,7 +2,7 @@
   nprocs 8
 end
 
-! BLYP-D4 def2 SVP Opt
+! BLYP D4 def2-SVP Opt
 
 * xyz 0 1
 C       -5.33396100      -0.30975300      -1.41451400
