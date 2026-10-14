@@ -15,4 +15,4 @@ cd "$SLURM_SUBMIT_DIR"
 
 export PATH="/rds/projects/s/scanlodo-msci-2026/anaandoA/orcaprog/orca_6_1_1_linux_x86-64_shared_openmpi418_nodmrg:$PATH"
 
-orca cat1chp.inp > cat1chp.out
+/rds/projects/s/scanlodo-msci-2026/anaandoA/orcaprog/orca_6_1_1_linux_x86-64_shared_openmpi418_nodmrg/orca cat1chp.inp > cat1chp.out
