@@ -1,5 +1,5 @@
 %pal
-  nprocs 16
+  nprocs 8
 end
 
 ! BLYP-D4 def2-SVP Opt
