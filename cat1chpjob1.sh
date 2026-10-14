@@ -6,6 +6,8 @@
 #SBATCH --output=cat1chp_%j.out
 #SBATCH --error=cat1chp_%j.err
 
+module purge
+module load bluebear
 module load bear-apps/2023a/live
 module --ignore_cache load OpenMPI/4.1.5-GCC-12.3.0
 
