@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=cat1chp
 #SBATCH --nodes=1
-#SBATCH --ntasks=16
+#SBATCH --ntasks=8
 #SBATCH --time=12:00:00
 #SBATCH --output=cat1chp_%j.out
 #SBATCH --error=cat1chp_%j.err
