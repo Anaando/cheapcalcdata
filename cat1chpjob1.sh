@@ -12,3 +12,5 @@ module --ignore_cache load OpenMPI/4.1.5-GCC-12.3.0
 cd "$SLURM_SUBMIT_DIR"
 
 export PATH="/rds/projects/s/scanlodo-msci-2026/anaandoA/orcaprog/orca_6_1_1_linux_x86-64_shared_openmpi418_nodmrg:$PATH"
+
+orca cat1chp.inp > cat1chp.out
