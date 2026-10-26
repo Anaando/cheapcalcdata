@@ -1,0 +1,12 @@
+! BLYP D4 def2-SVP NEB-TS
+
+%pal
+  nprocs 8
+end
+
+%neb
+  NEB_END_XYZFILE "INT-P-4_chpopt.xyz"
+  NImages 8
+end
+
+* XYZFILE 0 1 INT-P-3_chpopt.xyz
