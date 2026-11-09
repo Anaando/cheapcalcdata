@@ -21,7 +21,7 @@ source /rds/projects/s/scanlodo-msci-2026/anaandoA/miniconda3/etc/profile.d/cond
 # Activate Python env
 conda activate ase-env
 
-cd /rds/projects/s/scanlodo-msci-2026/anaandoA/cheapcalcdata/AtomOrdering/PTpath/INTP2->INTP3 || exit 1
+cd /rds/projects/s/scanlodo-msci-2026/anaandoA/cheapcalcdata/AtomOrdering/PTpath/M_INTP2-INTP3 || exit 1
 
 # Run script
 python AtomMatchingTemplate.py INT-P-2.xyz INT-P-3.xyz
