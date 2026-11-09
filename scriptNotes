@@ -1,0 +1,23 @@
+Semi-automatic atom mapper for two XYZ structures intended for NEB.
+
+Usage:
+    python match_xyz.py INT-P-2.xyz INT-P-3.xyz
+
+Dependencies:
+    numpy
+    scipy
+
+The script:
+  * checks atom counts and elemental compositions;
+  * aligns the structures using a multi-start principal-axis/Kabsch procedure;
+  * assigns atoms only to atoms of the same element;
+  * writes the SECOND structure reordered into the atom order of the FIRST;
+  * writes a mapping table and reports the aligned RMSD.
+
+IMPORTANT:
+This is a geometry-based proposal, not proof of chemical atom identity.
+It is most reliable when the structures have similar conformations and
+coordinate frames. Inspect the mapping and resulting XYZ chemically before NEB.
+Bond-making/breaking and proton transfers can make purely geometric matching
+ambiguous. Do not use a high-RMSD or chemically implausible mapping.
+"""
