@@ -1,0 +1,12 @@
+! BLYP D4 def2-SVP NEB-TS
+
+%pal
+  nprocs 8
+end
+
+%neb
+  NEB_END_XYZFILE "figS11_TST1_reactant_Zn.xyz"
+  NImages 8
+end
+
+* XYZFILE 0 1 figS11_TST1_product_Zn.xyz
